@@ -1,0 +1,79 @@
+#cardPic
+{
+    content-visibility: visible;
+}
+.icon-appearance
+{
+  color: black;
+}
+.open-button
+{
+    color: black;
+}
+
+
+/* *************** */
+
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+  height: 100vh;
+}
+.greeting
+{
+  height: 100vh;
+}
+
+.carousel-item:nth-child(1) {
+  background-image: url('../../assets/cover.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  #introCarousel {
+    /* margin-top: -58.59px; */
+  }
+  #introCarousel,
+  .carousel-inner,
+  .carousel-item,
+  .carousel-item.active {
+    height: 50vh;
+  }
+
+  .button-mobile
+  {
+    visibility: hidden;
+  }
+  .greeting
+  {
+    height: 50vh;
+  }
+}
+
+.navbar .nav-link {
+  color: #000000 !important;
+}
+.navbar {
+  width: 100%;
+  /* z-index: 2000; */
+  position: fixed;
+  visibility: visible;
+
+  text-transform: capitalize;
+   background-color: rgb(255, 255, 255); 
+  background-color: transparent;
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(70px);
+}
+.appearance
+{
+  color: black;
+}
+
+/* ********************************************************************* */
+

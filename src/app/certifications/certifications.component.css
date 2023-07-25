@@ -1,0 +1,18 @@
+.image
+{
+    height:720px; 
+   width: 100%;
+    
+}
+
+
+/* 576px */
+
+@media  (max-width: 576px) {
+    .image
+    {
+        height: max-content;
+       width: 100%;
+        
+    }
+  }

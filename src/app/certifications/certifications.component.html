@@ -1,0 +1,22 @@
+<ngb-carousel
+	#carousel
+	[interval]="2000"
+	[pauseOnHover]="pauseOnHover"
+	[pauseOnFocus]="pauseOnFocus"
+	(slide)="onSlide($event)"
+>
+	<ng-template ngbSlide *ngFor="let img of images; index as i; " style="width: 100%;">
+		<div class="carousel-caption">
+			<h3 style="color: black;text-align: center;">{{i + 1}}</h3>
+		</div>
+		<a href="{{allLinks[i]}}" target="_blank" rel="nofollow noopener noreferrer">
+			<div class="picsum-img-wrapper">
+				<img class="image" [src]="img" alt="{{i + 1}}"/>
+			</div>
+		</a>
+	</ng-template>
+</ngb-carousel>
+
+
+
+

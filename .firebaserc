@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "mechatrons-portfolio"
+  },
+  "targets": {
+    "mechatrons-portfolio": {
+      "hosting": {
+        "portfolio": [
+          "mechatrons-portfolio"
+        ]
+      }
+    }
+  }
+}
